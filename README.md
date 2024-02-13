@@ -20,10 +20,11 @@ To get started with this project, follow these steps:
 
 1. Clone the repository: git clone https://github.com/Albatrosina/test_ex_api.git
 2. Change directory to the newly added folder. ```cd test_ex_api```
-3. Set up a virtual environment (recommended): ```python -m venv venv
-source venv/bin/activate # On Windows use venv\Scripts\activate```
-4. Install the dependencies: ```pip install -r requirements.txt```
-5. Run the tests with command: ```pytest```
+3. Set up a virtual environment (recommended): ```python -m venv venv```
+4. Activate the virtual environment: ```source venv/bin/activate```, 
+```# On Windows use venv\Scripts\activate```
+5. Install the dependencies: ```pip install -r requirements.txt```
+6. Run the tests with command: ```pytest```
 ## Running Tests
 
 The tests are designed to be run with pytest. You can run all tests using the following command:
